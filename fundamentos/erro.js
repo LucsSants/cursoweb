@@ -19,7 +19,7 @@ function imprimirNomeGritando(obj) {
     tratarErroELancar(e)
   } finally {
     console.log("Final")
-  }
+  } 
 }
 
 imprimirNomeGritando({name : "abc"})

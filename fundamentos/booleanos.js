@@ -35,6 +35,6 @@ console.log('' || null || 0 || 'a' || ' ') // Nesse caso ele vai retornar o prim
 let nome = ''
 console.log(nome || 'desconhecido')
 nome = 'Lucas'
-console.log(nome || 'desconhecido')
+console.log(nome || 'desconhecido') 
 
 

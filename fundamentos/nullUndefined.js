@@ -14,7 +14,7 @@ const produto = {}
 console.log(produto.preco)
 console.log(produto)
 
-produto.preco = 3.50
+produto.preco = 3.50 
 console.log(produto)
 
 produto.preco = undefined // não fazer, deixe pra linguagem falar oq é undefined, nesse caso se for um valor númerico deixe pra botar 0, e se for um preco que vc queira deixer de graça vc bota zero, mas se vc quiser só limpar o valor, bota null

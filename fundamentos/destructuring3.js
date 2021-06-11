@@ -8,4 +8,4 @@ console.log(rand(obj))
 
 console.log(rand({min:955}))
 console.log(rand({}))
-console.log(rand()) // ter cuidado e não botar sem o objeto
+console.log(rand()) // ter cuidado e não botar sem o objeto 

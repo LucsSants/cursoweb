@@ -10,7 +10,7 @@ console.log(prod1)
 // um objeto tbm pode ser cirado já passado seus atributos e valores, esses valores podem ser de vários tipos, incluindo outros objetos e tbm funções.
 const prod2 = {
   nome: 'camisa',
-  preco: 79.90,
+  preco: 79.90, 
   obj: {
     blabla: 1,
     obj: {

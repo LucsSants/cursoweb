@@ -9,3 +9,4 @@ console.log(rand([992]))
 console.log(rand([,10]))
 console.log(rand([]))
 // nao pode não botar em um array se não vai dar undefined
+ 

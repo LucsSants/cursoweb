@@ -16,5 +16,5 @@ console.log('10)', d1 == d2)
 console.log('11)', d1.getTime() === d2.getTime()) // idependente de for == ou ===
 
 console.log('12)', undefined == null)
-console.log('13)', undefined === null)
+console.log('13)', undefined === null) 
 

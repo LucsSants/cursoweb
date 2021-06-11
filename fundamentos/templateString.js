@@ -12,4 +12,4 @@ const template = `
   console.log(`1 + 1 = ${1+1}`) // da pra passar uma expressão
   
   const up = texto => texto.toUpperCase() 
-  console.log(`Ei ${up('cuidado')}!`) // ou chamar uma função tbm
+  console.log(`Ei ${up('cuidado')}!`) // ou chamar uma função tbm 

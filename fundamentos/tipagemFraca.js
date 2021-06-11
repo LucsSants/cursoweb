@@ -12,6 +12,6 @@ console.log(typeof qualquer)
 
 let valor = ''
 let numero = 1
-let pqp = false  // é puta que pariu mesmo
+let pqp = false  // é puta que pariu mesmo 
 
 

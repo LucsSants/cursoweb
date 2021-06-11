@@ -3,4 +3,4 @@ function rand(min,max) {
   return Math.floor(valor)
 }
 
-console.log(rand(9,16))
+console.log(rand(9,16)) 

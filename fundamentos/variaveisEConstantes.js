@@ -16,4 +16,4 @@ console.log(a, b)
 //const é constante. ou seja não pode se reatribuido
 const c = 5
 //c = 50
-console.log(c)
+console.log(c) 

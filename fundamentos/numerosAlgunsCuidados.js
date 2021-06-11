@@ -6,5 +6,5 @@
   console.log("Show!" * 2) // NOT A NUMER
   console.log(0.1+0.2) // Imprecisão, tomar cuidado
   // console.log(10.toFixed()) //não consege chamar o literal.Função
-  console.log((10.345).toFixed(2)) // mas consgue chamar o (literal).Função [lietral entre()]
+  console.log((10.345).toFixed(2)) // mas consgue chamar o (literal).Função [lietral entre()] 
 

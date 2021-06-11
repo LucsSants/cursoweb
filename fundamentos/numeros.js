@@ -30,7 +30,7 @@ console.log(typeof media.toString())
 
 //****//
 
-console.log(typeof media)
+console.log(typeof media) 
 console.log(typeof Number)
 
 // (n)umber é um tipo, e (N)umber é uma função

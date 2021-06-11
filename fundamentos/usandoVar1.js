@@ -12,7 +12,7 @@
 console.log(sera) // o var criado asssim, fica global, ou seja pode ser acessado de qualquer lugar
 
 function teste() {
-  var local = 123
+  var local = 123 
   console.log(local)
 }
 

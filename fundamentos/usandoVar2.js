@@ -9,4 +9,4 @@ console.log("fora: ",numero)
 
 
 // variaveis com let tem escopo global, escopo de função e escopo de bloco
-// variaveis com var tem escopo global e de função
+// variaveis com var tem escopo global e de função  

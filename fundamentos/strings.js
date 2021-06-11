@@ -19,4 +19,4 @@ console.log(escola.replace(/\w/g, 'e')) // nesse caso o \w é pra letras, e o /g
 
 
 console.log("Ana, Maria, Pedro".split(",")) // o split que separa uma String transformando em um array, no parametro a gente bota oq vai indicar a separação, ou seja
-// sempre que ele ver uma vírgula vai separar.
+// sempre que ele ver uma vírgula vai separar. 

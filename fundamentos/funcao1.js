@@ -13,5 +13,5 @@ function soma(a, b = 1) { // aqui atribuimos um valor padrão pro b
 
 console.log(soma(2, 3))
 console.log(soma(2)) // ai nesse caso que ele nao foi colocado ele vai somar 2 que foi definido, mais 1 que é o padrão de b
-console.log(soma())
+console.log(soma()) 
 

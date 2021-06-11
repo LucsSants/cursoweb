@@ -19,7 +19,7 @@ const cliente = {
   }
 }
 
-console.log(saudacao)
+console.log(saudacao) 
 console.log(exec())
 console.log(cliente)
 

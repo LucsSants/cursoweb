@@ -21,7 +21,7 @@ console.log(logradouro,numero,cep)
 
 const { conta: { agen, num} } = pessoa // não pode tentar achar dentro de algo que não existe pois vai da erro
 console.log(agen,num)
-
+ 
 
 
 

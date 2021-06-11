@@ -15,4 +15,4 @@ delete valores[0] // da pra deletar um item numa posição especifica com o dele
 
 console.log(valores)
 
-console.log(typeof valores) // array é um objeto
+console.log(typeof valores) // array é um objeto 
