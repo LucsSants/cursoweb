@@ -9,4 +9,4 @@ const imprimirResultado = function(nota) {
 
 imprimirResultado(10)
 imprimirResultado(4)
-imprimirResultado('Epa!') // cuidado!! (linguagem fracamente tipada)
+imprimirResultado('Epa!') // cuidado!! (linguagem fracamente tipada) 

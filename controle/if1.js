@@ -15,7 +15,7 @@ function seForVerdadeEuFalo(valor) {
 
 seForVerdadeEuFalo()
 seForVerdadeEuFalo(null)
-seForVerdadeEuFalo(undefined)
+seForVerdadeEuFalo(undefined) 
 seForVerdadeEuFalo(NaN)
 seForVerdadeEuFalo('')
 seForVerdadeEuFalo(0)

@@ -8,7 +8,7 @@ for (x in nums) {
 }
 
 for (y in nums) {
-    if (y == 5) { // e o continue para e vai pra proxima, ou seja ele para no y == 5 e nao executa essa mas ai vai pro y==6 em diante
+    if (y == 5) { // e o continue para e vai pra proxima, ou seja ele para no y == 5 e nao executa essa mas ai vai pro y==6 em diante 
         continue
     }
     console.log(`${y} = ${nums[y]}`)
