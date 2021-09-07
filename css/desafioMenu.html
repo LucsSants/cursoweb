@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Desafio Menu</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Oswald', sans-serif;
+            background-color: lightgray;
+        }
+
+        .menu-toggle {
+            float: right;
+            height: 40px;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 20px 15px;  
+        }
+
+        .cabecalho {
+            background: #464545;
+            border-bottom:solid 5px #2828a2 ; 
+            height: 80px;
+            box-sizing: content-box;
+        }
+
+        .logo {
+            display: inline-block;
+            height: 80px;
+            padding: 15px;
+        }
+
+        .logo img {
+            height: 100%;
+        }
+
+        .menu {
+            display: inline-block;
+            vertical-align: top;
+            height: 80px;
+            padding: 25px;
+        }
+        
+        .menu ul {
+            margin: 0;
+            padding:0;
+        }
+
+        .menu li {
+            list-style: none;
+            display: inline-block;
+            
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.3rem;
+            padding: 15px;
+        }
+
+        .autenticacao {
+            float: right;
+            height: 40px;
+            padding: 10px 20px;
+            margin: 20px 15px;
+        }
+
+        .autenticacao a {
+            color: white;
+            text-decoration: none;
+            
+        }
+
+        .autenticacao a:nth-child(2) {
+            background: red;
+            padding: 10px 30px;
+            border-radius: 20px;
+            margin-left: 10px;
+        }
+
+        .menu a:hover,
+        .menu a.active {
+            background: royalblue;
+            border-radius: 10px;
+        }
+
+        @media screen and (min-width: 800px) {
+            .menu-toggle {
+                display: none;
+            }
+        }
+
+        @media(max-width: 768px) {
+            .menu {
+                display: none;
+            }
+        }
+
+        @media (max-width: 905px) {
+            .autenticacao {
+                display: none;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="#inicio">
+                <img src="http://files.cod3r.com.br/curso-web/logo.png" alt="Logo" />
+            </a>
+        </div>
+        <button class="menu-toggle">
+            <i class="fa fa-lg fa-bars"></i>
+        </button>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#inicio" class="active">Início</a>
+                </li>
+                <li>
+                    <a href="#cursos">Cursos</a>
+                </li>
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <aside class="autenticacao">
+            <a href="#login">Login</a>
+            <a href="#registar" class="botao destaque">Registrar</a>
+        </aside>
+    </header>
+
+    <script>
+
+        const Link = document.querySelectorAll('.menu a')
+        Link.forEach(a => {
+            a.addEventListener("click", () => {
+                const old = document.querySelector('.menu a.active')
+                old.classList.remove('active')
+                a.classList.add('active')
+            }
+            )
+        })
+        
+
+       /* window.onhashchange = function (e) {
+            const oldURL = e.oldURL.split('#')[1]
+            const newURL = e.newURL.split('#')[1]
+
+            const oldMenu = document.querySelector(`.menu a[href="#${oldURL}"]`)
+            const newMenu = document.querySelector(`.menu a[href="#${newURL}"]`)
+            
+            console.log(oldMenu)
+
+            oldMenu.classList.remove('active')
+            newMenu.classList.add('active')
+
+        }*/
+    </script>
+</body>
+
+</html>
