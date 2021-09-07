@@ -1,0 +1,57 @@
+<h1>Projeto</h1>
+<ul class="tree">
+    <li>
+        <span class="folder">backend</span>
+        <ul>
+            <li>
+                <span class="folder">app</span>
+                <ul>
+                    <li>produto.js</li>
+                    <li>usuario.js</li>
+                    <li>venda.js</li>
+                </ul>
+            </li>
+            <li>
+                <span class="folder">config</span>
+                <ul>
+                    <li>banco.js</li>
+                    <li>rotas.js</li>
+                    <li>servidor.js</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <span class="folder">frontend</span>
+        <ul>
+            <li>
+                <span class="folder">public</span>
+                <ul>
+                    <li>app.css</li>
+                    <li>app.js</li>
+                    <li>index.html</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<style>
+    span {
+        cursor: pointer;
+    }
+</style>
+
+<link rel="stylesheet" href="http://files.cod3r.com.br/curso-web/tree.css">
+
+
+<script>
+  document.querySelectorAll('.folder').forEach(folder => {
+      folder.onclick = function (e) {
+          const ul = folder.nextElementSibling
+          const display = ul.style.display
+          ul.style.display = display === 'none' ? 'block' : 'none'
+      }
+  })
+
+</script>
