@@ -21,6 +21,24 @@
     <input type="text" placeholder="Digite e Selecione">
     <div id="resultado2">?</div>
     <script>
-        // ...
+        const alternarDestaque = () => $('#div1').toggleClass('destaque')
+        $('#div1').hover(alternarDestaque, alternarDestaque) // se cololar apenas um parametro ele vai executar o mesmo pra quando entrar e quando sair, mas caso queira que algo diferente ocorra quando o mouse sair é só passar dois parametros
+
+        $('#div1').one('mouseenter', e=> alert('AVISO IMPORTANTE: Tchau')) // executa apenas uma vez!!!
+
+        $('#div1').dblclick(e => $('#div1').fadeOut(1000).fadeIn(1000))
+
+        $(window).resize(function(e) {
+            const l = $(window).width()
+            const a = $(window).height()
+
+            $('#resultado1').html(`Largura: ${l} / Altura: ${a}`)
+        })
+
+        $(':input').select(e=> {
+            const incio = e.target.selectionStart
+            const fim = e.target.selectionEnd
+            $('#resultado2').html(e.target.value.substring(incio,fim))
+        })
     </script>
 </body>
