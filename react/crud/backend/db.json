@@ -1,0 +1,12 @@
+{
+  "users":[{
+    "id": 1,
+    "name": "Arthur Oliveira",
+    "email": "av@hotmail.com"
+} , {
+  "id": 2,
+  "name": "Alberto Cassio",
+  "email": "albca@hotmail.com"
+}]
+
+}
